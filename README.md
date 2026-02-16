@@ -72,7 +72,7 @@ Data structures aren't just theoretical concepts – they solve real problems ev
 
 ## 📚 **Learning Resources**
 
-Check out the [Basic_Resources](./Basic_Resources) file for curated learning materials including:
+Check out the [Basic_Resources](./Basic_Resources) document for curated learning materials including:
 - LeetCode problem sets and study plans
 - GeeksforGeeks tutorials and interview preparation
 - Data structures and algorithms courses
