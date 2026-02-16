@@ -58,6 +58,7 @@ Data structures aren't just theoretical concepts – they solve real problems ev
    git clone https://github.com/DineshMoorthy007/Data_Structures_100_days.git
    cd Data_Structures_100_days
    ```
+   > Note: Repository name reflects its origin as a 100-day challenge, now evolved into a daily data structures code collection
 
 2. Run any example
    ```bash
