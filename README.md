@@ -1,137 +1,101 @@
-# Python Data Structures Code
+# Python DSA Codes
 
-Welcome to **Python Data Structures Code** – a collection of practical, real-world examples demonstrating how data structure concepts are used in everyday programming tasks!
+This repository contains Python implementations of data structures and algorithms, written as practical, standalone examples.
 
-This repository showcases **common python coding scenarios** solved using fundamental data structures, making abstract concepts concrete and immediately applicable.
+The goal is to help learners understand **what each concept does**, **why it is useful**, and **where it is used** in real systems.
 
----
+## What this repository offers
 
-## About This Repository
+- Script-based examples you can run directly with Python
+- Simple, readable implementations of core DSA concepts
+- Real-world style use cases (caching, routing, scheduling, graph traversal, synchronization, and more)
+- A broad range of topics from fundamentals to advanced system-oriented patterns
 
-Data structures aren't just theoretical concepts – they solve real problems every day! This repository contains:
+## Core concepts explained simply
 
-- **Practical Python examples** showing data structures in action
-- **Real-world use cases** like task management, data processing, and efficient algorithms
-- **Clean, commented code** that's easy to understand and apply
-- **Daily coding patterns** that developers encounter regularly
+- **Array/List**: Store ordered items; good for fast indexed access.
+- **Stack (LIFO)**: Last item added is removed first; useful for undo, parsing, and validation.
+- **Queue (FIFO)**: First item added is removed first; useful for task processing and buffering.
+- **Hash Map/Dictionary**: Key-value lookup in near constant time; useful for indexing and routing.
+- **Linked Structure**: Nodes connected by pointers; useful for dynamic insertion/deletion patterns.
+- **Tree**: Hierarchical structure; useful for search, ordering, and prefix-based retrieval.
+- **Heap/Priority Queue**: Efficiently fetch min/max priority item; useful for scheduling and shortest-path problems.
+- **Graph**: Models relationships between entities; useful for networks, dependencies, and pathfinding.
+- **Dynamic Programming**: Reuses solved subproblems; useful for optimization and counting problems.
+- **Probabilistic Structures**: Trade exactness for speed/memory (for example Bloom/Cuckoo/HyperLogLog-style approaches).
+- **Distributed Consistency Patterns**: Demonstrates ideas behind consensus, replication, and conflict resolution.
 
----
+## Repository structure
 
-## Code Examples
+- All examples are currently in the repository root as individual `.py` files.
+- Most files are self-contained and include demonstration code/output comments.
+- File names describe the main concept or engine simulated in that script.
 
-### Stack Operations (LIFO - Last-In-First-Out)
-- **LIFO_Stack_Wrapper** - A complete Stack class implementation with push, pop, and peek operations
-- **Balanced_Brackets_Validator** - Validates balanced parentheses and brackets using stack-based approach
-- **Transaction_engine_with_undo_history** - Stack-based transaction management system with undo capability
+## Topic map with representative files
 
-### Queue Operations (Deque & FIFO - First-In-First-Out)
-- **Breadth-First-Task-Management** - Managing tasks using FIFO principles with `collections.deque`
-- **Efficient_Sliding_Window_Average** - Real-time data processing using fixed-size deque for moving averages
-- **Priority_Task_Queue** - Priority queue implementation using heap structure for task scheduling
+### Fundamentals
+- `LIFO_Stack_Wrapper.py`
+- `Balanced_Brackets_Validator.py`
+- `Fixed_Size_Ring_Buffer.py`
+- `Node_Based_Pointer_Chain.py`
+- `Binary_Search_Tree_Insertion.py`
 
-### Hash Table & Dictionary Operations
-- **Automated_Grouping_Pattern** - Organizing categories using `defaultdict` for efficient inventory management
-- **Extensible_Command_Router** - Dictionary-based command routing and dispatch system
-- **Transforming_Filtering_Mapped_Data** - Data filtering and transformation with dictionary comprehensions
+### Search, sort, and optimization
+- `Recursive_Divide_And_Conquer_Sort.py`
+- `Three_Pointer_Pivot.py`
+- `Memoized_Fibonacci_Sequence.py`
+- `Space_Optimized_Matrix_Edit_Distance.py`
 
-### List & Array Operations
-- **List_Comprehensions_with_Conditional_Logic** - Elegant data transformation and filtering using comprehensions
-- **Three_Pointer_Pivot** - Partition array using three-pointer technique for efficient sorting
+### Graph algorithms and pathfinding
+- `Simple_Social_Network_Graph.py`
+- `Friends_of_Friends_Finder.py`
+- `Grid_Based_A*_Pathfinding_Engine.py`
+- `Kruskal_MST_Engine_With_Union_FInd.py`
+- `Single_Pass_Bridge_Detector.py`
 
-### Linked Lists & Node-Based Structures
-- **Node_Based_Pointer_Chain** - Linked list implementation with pointer-based traversal
-- **Clean_Coordinate_Mapping** - Using `namedtuple` for clean and immutable coordinate structures
+### Caching and memory-efficient structures
+- `Memory_Cache_From_Scratch.py`
+- `Hash_Map_&_Doubly_Linked_List_Cache_Engine.py`
+- `Production_Grade_LRU_K_Cache_Engine.py`
+- `Production_Grade_Space_Efficient_Bloom_Filter.py`
+- `Cuckoo_Filter_with_Fingerprint_Eviction_&_Deletions.py`
 
-### Graph & Network Operations
-- **Simple_Social_Network_Graph** - Graph representation and adjacency list for social networks
-- **Friends_of_Friends_Finder** - Graph traversal algorithms for social network analysis
+### Concurrency, reliability, and distributed systems
+- `Thread_Safe_Bounded_Queue_using_Condition_Variables.py`
+- `Thread_Safe_Writer_Preference_Read_Write_Lock.py`
+- `Crash_Resistant_Write_Ahead_Log_Engine.py`
+- `Distributed_Raft_Leader_Election_State_Machine.py`
+- `Production_Grade_Transactional_Outbox_&_Relay_Engine.py`
 
-### Circular Buffer & Ring Data Structures
-- **Fixed_Size_Ring_Buffer** - Implementing circular buffer with fixed size and automatic wraparound
+## How to run examples
 
-### Dynamic Programming & Optimization
-- **Memoized_Fibonacci_Sequence** - Optimizing recursive algorithms with memoization dictionary
-- **Staircase_Problem** - Dynamic programming solution for combinatorial problems
+1. Clone the repository:
 
----
-
-## Core Data Structures Covered
-
-- **Arrays & Lists**: Dynamic arrays, list operations, list comprehensions, and array partitioning
-- **Stacks**: LIFO operations, bracket validation, transaction management with undo history
-- **Queues & Deques**: FIFO operations, task scheduling, priority queues, sliding window algorithms
-- **Hash Tables & Dictionaries**: Fast lookups, defaultdict patterns, command routing, data transformation
-- **Linked Lists**: Node-based pointer chains and traversal
-- **Graphs**: Adjacency lists, social networks, graph traversal algorithms
-- **Heaps**: Priority queue implementation for task scheduling
-- **Circular Buffers**: Fixed-size ring buffers with automatic wraparound
-- **Dynamic Programming**: Memoization, optimization techniques, combinatorial problems
-- **Named Tuples & Structures**: Clean data modeling for coordinates and structured data
-
----
-
-## Why This Repository?
-
-- **Learn by Doing**: See data structures solving actual problems
-- **Daily Practice**: Regular coding examples to build muscle memory
-- **Practical Focus**: Code you can use in projects, not just textbook theory
-- **Python-First**: Clear, Pythonic implementations using standard libraries
-
----
-
-## Getting Started
-
-1. Clone this repository
    ```bash
-   https://github.com/DineshMoorthy007/Python_DSA_Codes.git
+   git clone https://github.com/DineshMoorthy007/Python_DSA_Codes.git
    cd Python_DSA_Codes
    ```
-   > Note: Repository name reflects its origin as a 100-day challenge, now evolved into a daily data structures code collection
 
-2. Run any example
+2. Run any script:
+
    ```bash
-   python Breadth-First-Task-Management.py
-   python Efficient_Sliding_Window_Average.py
+   python Balanced_Brackets_Validator.py
+   python Grid_Based_A*_Pathfinding_Engine.py
    ```
 
-3. Study the code, modify it, and experiment!
+3. Read the code and modify inputs to experiment with behavior.
 
----
+## Suggested learning path
 
-## Learning Resources
-
-This repository references curated learning materials to support your learning journey:
-
-- **LeetCode**: Problem sets and study plans for practicing data structures and algorithms
-  - Focus on array, string, linked list, and queue problems
-  - Try the "Data Structures" study plan for structured learning
-
-- **GeeksforGeeks**: Comprehensive tutorials and interview preparation
-  - Data Structures guides with implementation examples
-  - Interview preparation materials and coding challenges
-
-- **Online Courses**: Recommended platforms for in-depth learning
-  - Udemy: Data Structures and Algorithms courses
-  - Coursera: Computer Science fundamentals specializations
-  - YouTube: Free tutorial channels for visual learning
-
-- **Practice Resources**: Build your coding skills through regular practice
-  - HackerRank for interactive coding challenges
-  - CodeSignal for real-world coding problems
-  - Project Euler for mathematical and algorithmic thinking
-
----
+1. Start with stack, queue, dictionary, and linked structure examples.
+2. Move to trees, heaps, recursion, and dynamic programming.
+3. Continue with graph traversal and shortest-path algorithms.
+4. Explore probabilistic and distributed-system-inspired implementations.
 
 ## Contributing
 
-Feel free to contribute your own daily coding examples that demonstrate data structure concepts in practical scenarios!
-
----
+Contributions are welcome. Prefer clear naming, small focused examples, and simple explanations in code.
 
 ## License
 
-This project is open source and available for learning purposes.
-
----
-
-**Happy Coding!**
+This repository is intended for learning and educational use.
