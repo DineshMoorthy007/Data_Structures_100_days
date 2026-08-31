@@ -1,8 +1,19 @@
 # Python DSA Codes
 
-This repository contains Python implementations of data structures and algorithms, written as practical, standalone examples.
+Practical, standalone Python scripts that explain data structures, algorithms, and system-design-inspired patterns.
 
-The goal is to help learners understand **what each concept does**, **why it is useful**, and **where it is used** in real systems.
+The goal is to help learners understand **what each concept does**, **why it is useful**, and **where it appears in real systems**.
+
+## Table of contents
+
+- [What this repository offers](#what-this-repository-offers)
+- [Core concepts explained simply](#core-concepts-explained-simply)
+- [Repository structure](#repository-structure)
+- [Topic map with representative files](#topic-map-with-representative-files)
+- [How to run examples](#how-to-run-examples)
+- [Suggested learning path](#suggested-learning-path)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## What this repository offers
 
@@ -30,6 +41,10 @@ The goal is to help learners understand **what each concept does**, **why it is 
 - All examples are currently in the repository root as individual `.py` files.
 - Most files are self-contained and include demonstration code/output comments.
 - File names describe the main concept or engine simulated in that script.
+
+### Naming style note
+
+Some files use descriptive "engine-style" names to reflect real-world use cases, while others use classic DSA naming. All are intended as learning-focused examples.
 
 ## Topic map with representative files
 
@@ -69,6 +84,13 @@ The goal is to help learners understand **what each concept does**, **why it is 
 
 ## How to run examples
 
+### Requirements
+
+- Python 3.8+ recommended
+- No external dependencies required for most scripts
+
+### Quick start
+
 1. Clone the repository:
 
    ```bash
@@ -84,6 +106,13 @@ The goal is to help learners understand **what each concept does**, **why it is 
    ```
 
 3. Read the code and modify inputs to experiment with behavior.
+
+### Tips for learning from each script
+
+- Read the top-level function/class names first.
+- Run the script once before modifying it.
+- Change one input at a time and re-run to observe behavior.
+- Compare multiple scripts from the same topic to see pattern differences.
 
 ## Suggested learning path
 
